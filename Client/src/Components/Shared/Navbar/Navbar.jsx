@@ -11,7 +11,9 @@ const Navbar = () => {
                     <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
                         <Logo></Logo>
                         <Search></Search>
+                        <div className="">
                         <MenuDropdown></MenuDropdown>
+                        </div>
                     </div>
                 </Container>
             </div>
